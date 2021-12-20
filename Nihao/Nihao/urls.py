@@ -1,4 +1,4 @@
-"""Shunna URL Configuration
+"""Nihao URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', include('Diary_china.urls')),
+    path('', include('blog.urls')),
 
 ]
+
